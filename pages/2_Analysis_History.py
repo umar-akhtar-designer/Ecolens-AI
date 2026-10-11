@@ -417,6 +417,11 @@ for other in record.feedback:
     if other.source != "user":
         st.caption(f"Additional record: `{other.source}` · {other.verdict}")
 
-if st.button("Close detail", key="hist_close_detail"):
-    st.session_state.pop("selected_analysis", None)
-    st.rerun()
+b1,b2 = st.columns([1,4])
+with b1:
+    if st.button("Delete this record", key="del_detail"):
+        st.session_state["confirm_delete"] = record.public_id
+with b2:
+    if st.button("Close detail", key="hist_close_detail"):
+        st.session_state.pop("selected_analysis", None)
+        st.rerun()
