@@ -18,6 +18,11 @@ application, not a mockup: real inference, real SQLite persistence, real tests.
 
 ---
 
+## Live Demo
+
+- **Local:** `http://localhost:8501`
+- **Live tunnel:** `https://copies-risks-respected-expense.trycloudflare.com`
+
 ## 1. What it does
 
 - **Real image analysis** — validate → preprocess → infer → explain → guide → persist.
