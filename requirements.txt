@@ -1,0 +1,17 @@
+# EcoLens AI — runtime dependencies
+# Tested with Python 3.14 and the versions pinned in parentheses.
+# Lower bounds are used so the project installs on a range of supported Pythons.
+
+torch>=2.2                # tested: 2.14.1
+torchvision>=0.17         # tested: 0.29.1
+streamlit>=1.50           # tested: 1.65.0 (uses width="stretch" API)
+plotly>=5.20              # tested: 7.1.0
+SQLAlchemy>=2.0           # tested: 2.1.4
+numpy>=1.26               # tested: 2.5.4
+Pillow>=10.0              # tested: 12.3.0
+opencv-python-headless>=4.8  # tested: 5.0.0.93 (optional; PIL is the primary decoder)
+pandas>=2.0               # tested: 3.0.6 (used by Streamlit dataframe widgets)
+
+# Development / quality (safe to omit in production)
+pytest>=7.4               # tested: 9.1.1
+ruff>=0.4                 # tested: 0.17.0

@@ -1,0 +1,33 @@
+[project]
+name = "ecolens-ai"
+version = "1.0.0"
+description = "EcoLens AI — image intelligence for material awareness, reuse and disposal."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = [".venv", "storage", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "RUF"]
+ignore = [
+    "E501",   # line length handled by formatter / readability
+    "B008",   # function calls in defaults (FastAPI-style patterns)
+    "B905",   # zip() strict= — lengths are known-equal in these call sites
+    "C408",   # dict() with keyword args is more readable here
+    "RUF001", # ambiguous unicode (em dashes / curly quotes are intentional in copy)
+    "RUF002",
+    "RUF003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+"scripts/*" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

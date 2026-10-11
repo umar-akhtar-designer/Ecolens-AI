@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "last_reviewed": "2026-10-11",
+    "disclaimer": "General guidance only. Recycling rules are set locally and change often. Always confirm with your municipal authority or local facility. This is not a determination of material composition, contamination, or recyclability.",
+    "primary_references": [
+      "https://www.epa.gov/recycle",
+      "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "https://www.epa.gov/recycle/reducing-and-reusing-basics"
+    ]
+  },
+  "categories": [
+    {
+      "category_slug": "paper_cardboard",
+      "display_name": "Paper & Cardboard",
+      "description": "Paper and paperboard products such as boxes, office paper and printed materials.",
+      "common_examples": ["Cardboard boxes", "Newspapers", "Office paper", "Envelopes", "Paper bags"],
+      "reuse_guidance": "Reuse boxes for storage or shipping. Use blank sides of paper for notes or drafts.",
+      "disposal_guidance": "Keep clean and dry, flatten boxes, and place in paper recycling where accepted. Remove excessive tape and non-paper inserts.",
+      "safety_notes": "Avoid recycling paper contaminated with food, oil, or chemicals.",
+      "contamination_notes": "Grease, food residue and moisture lower fibre quality and can cause rejection.",
+      "recyclability_conditions": "Generally recyclable when clean and dry; laminated, waxed or heavily soiled paper often is not.",
+      "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "plastic",
+      "display_name": "Plastic Containers & Film",
+      "description": "Plastic bottles, containers and film. Many resin types exist (PET, HDPE, PP, etc.).",
+      "common_examples": ["Beverage bottles", "Detergent jugs", "Tubs", "Shopping bags", "Pill bottles"],
+      "reuse_guidance": "Refill and reuse containers where safe. Reuse sturdy bags multiple times; keep them out of waterways.",
+      "disposal_guidance": "Empty and rinse containers. Check the resin code and local acceptance. Film and bags often need a separate drop-off.",
+      "safety_notes": "Do not reuse containers that held hazardous substances for food. Never burn plastics.",
+      "contamination_notes": "Food residue and mixed materials (caps, labels, pumps) can reduce recyclability.",
+      "recyclability_conditions": "Acceptance varies by resin code and facility; only some types are accepted locally.",
+      "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "glass",
+      "display_name": "Glass Containers",
+      "description": "Glass bottles and jars used for food and beverages.",
+      "common_examples": ["Bottles", "Jars", "Some decorative vessels"],
+      "reuse_guidance": "Reuse jars for storage. Glass can be recycled many times if it reaches a facility cleanly.",
+      "disposal_guidance": "Rinse and remove lids. Deposit in glass recycling where accepted, sorting by colour if required.",
+      "safety_notes": "Broken glass is a cut hazard. Wrap sharp pieces before disposal.",
+      "contamination_notes": "Ceramics, Pyrex and mirrors are different glass types and usually contaminate the glass stream.",
+      "recyclability_conditions": "Container glass is commonly recyclable; window glass, ceramics and heat-resistant glass usually are not.",
+      "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "metal",
+      "display_name": "Metal Cans & Scrap",
+      "description": "Aluminium and steel cans, foil and small metal items.",
+      "common_examples": ["Drink cans", "Food tins", "Foil trays", "Small tools"],
+      "reuse_guidance": "Reuse tins for storage or planting. Clean foil can sometimes be reused.",
+      "disposal_guidance": "Empty and rinse. Metals are widely recycled, but aerosol and pressurised containers need care.",
+      "safety_notes": "Watch for sharp edges. Do not place pressurised or reactive containers in normal recycling.",
+      "contamination_notes": "Heavy food residue should be rinsed; mixed-material packaging may need separation.",
+      "recyclability_conditions": "Aluminium and steel are generally recyclable where collection exists.",
+      "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "textile",
+      "display_name": "Textiles & Clothing",
+      "description": "Clothing, linens and other fabric items.",
+      "common_examples": ["Shirts", "Towels", "Bedding", "Shoes"],
+      "reuse_guidance": "Donate or swap usable clothing. Cut worn textiles into cleaning rags.",
+      "disposal_guidance": "Use textile banks or charity collection where available. Avoid placing textiles in general waste if a collection exists.",
+      "safety_notes": "Sanitise items that may carry contamination. Keep textiles dry.",
+      "contamination_notes": "Wet or mouldy textiles are often not accepted.",
+      "recyclability_conditions": "Reuse is prioritised; fibre recycling availability varies by region.",
+      "source_url": "https://www.epa.gov/recycle/reducing-and-reusing-basics",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "e_waste",
+      "display_name": "Electronic Waste",
+      "description": "Consumer electronics and appliances. These may contain batteries, heavy metals and recoverable materials.",
+      "common_examples": ["Phones", "Laptops", "Keyboards", "Radios", "Small appliances"],
+      "reuse_guidance": "Repair or donate working devices. Refurbishers can extend device life.",
+      "disposal_guidance": "Use certified e-waste collection points or retailer take-back schemes. Do not put electronics in general bins.",
+      "safety_notes": "Some devices contain batteries that can catch fire if damaged. Never shred or puncture. Consider data wiping before disposal.",
+      "contamination_notes": "Batteries and accessories should be removed and handled separately where possible.",
+      "recyclability_conditions": "Electronics are recyclable through specialised streams, not curbside bins.",
+      "source_url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "battery",
+      "display_name": "Batteries",
+      "description": "Single-use and rechargeable batteries, including lithium-ion cells.",
+      "common_examples": ["AA/AAA cells", "Phone batteries", "Button cells", "Power-tool packs"],
+      "reuse_guidance": "Rechargeable batteries can be reused via chargers; avoid mixing chemistries.",
+      "disposal_guidance": "Take all batteries to a battery or hazardous-waste drop-off. Never place in curbside bins.",
+      "safety_notes": "Damaged or swollen lithium batteries are a fire risk. Tape terminals and store away from flammables.",
+      "contamination_notes": "Mixing battery types can short-circuit and cause fires.",
+      "recyclability_conditions": "Recyclable through specialised battery programs; curbside disposal is not appropriate.",
+      "source_url": "https://www.epa.gov/recycle/used-household-batteries",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "organic",
+      "display_name": "Organic & Food Waste",
+      "description": "Food scraps, garden waste and other compostable material.",
+      "common_examples": ["Fruit and vegetable scraps", "Coffee grounds", "Garden trimmings"],
+      "reuse_guidance": "Compost at home where possible; use for gardens or community compost schemes.",
+      "disposal_guidance": "Use organics/compost collection if available; otherwise compost or dispose responsibly.",
+      "safety_notes": "Avoid composting meat, dairy or oils in small home systems; they attract pests.",
+      "contamination_notes": "Plastic bags, stickers and packaging contaminate compost streams.",
+      "recyclability_conditions": "Composting depends on local programs and material type.",
+      "source_url": "https://www.epa.gov/recycle/composting-home",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "category_slug": "mixed_uncertain",
+      "display_name": "Mixed / Uncertain Material",
+      "description": "Items with multiple materials or where the model could not make a reliable material claim.",
+      "common_examples": ["Composite packaging", "Laminate pouches", "Unrecognised objects"],
+      "reuse_guidance": "Consider whether the item can be reused as-is before disposal.",
+      "disposal_guidance": "Follow local guidance for the item. Contact your municipality when unsure. Do not assume recyclability.",
+      "safety_notes": "If the item is unknown and could be hazardous, handle with caution.",
+      "contamination_notes": "Mixed materials are often difficult to separate and may not be accepted.",
+      "recyclability_conditions": "Unknown; depends on exact materials and local facilities.",
+      "source_url": "https://www.epa.gov/recycle",
+      "geographic_scope": "General (US-oriented)",
+      "reviewed_at": "2026-10-11"
+    }
+  ]
+}

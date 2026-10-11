@@ -1,0 +1,15 @@
+Most AI recycling tools guess. They say "this is recyclable" without proof. That leads to contamination and erodes trust. EcoLens AI solves this: it tells you what it actually sees, shows its confidence, and refuses to guess when evidence isn't enough. 
+
+We need a tool that runs locally, uses a real model, is transparent about uncertainty, and keeps a truthful audit trail of every analysis. EcoLens AI does exactly that — real inference, honest limits, and no paid APIs. 
+
+Now, on the Image Intelligence page, I upload a clear plastic water bottle and run analysis. This is real model inference, not a mockup. You can see the prediction, the uncalibrated softmax score (not a probability), the uncertainty badge, and the processing time in milliseconds. In the Decision support tab, we see three layers: Observation, Material evidence, and Recommended next action. Then in Visual explanation, I move the opacity slider to show the original image, the Grad-CAM overlay, and the raw saliency. Grad-CAM shows attention, not proof. 
+
+Next, I upload an ambiguous, busy photo and analyze it. When confidence is low or the object is outside the supported domain, EcoLens abstains. The badge shows "Unable to identify reliably" and it asks for a clearer photo. We simply refuse to guess. 
+
+Switching to Batch analysis, I upload two or three images and run it. The same real pipeline runs per image with isolated failures and CSV export. I download the results as CSV, then submit feedback on one result — it updates in place without changing the original record. 
+
+In Analysis History, I see the original prediction, timestamp, images, explanation, decision support persisted at analysis time, and feedback. I can export the page as CSV and open any record to view its full details. 
+
+Finally, in Sustainability Insights, charts are built only from saved records showing confidence, abstention rates, model usage, and user-reported feedback — clearly labeled as not accuracy. The knowledge base is local and separate from inference. 
+
+Everything runs locally, is tested with 85 automated tests, and every number shown comes from the running model or database — nothing is mocked or fabricated.
